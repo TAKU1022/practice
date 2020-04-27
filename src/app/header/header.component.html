@@ -1,4 +1,14 @@
-<mat-toolbar color="primary">
-  <span>献立</span>
-  
+<mat-toolbar class="headerBar" color="accent">
+  <button mat-icon-button>
+    <mat-icon>restaurant_menu</mat-icon>
+  </button>
+
+  <div class="search">
+    <input class="search__bar" type="text" matInput placeholder="検索">
+    <button mat-icon-button>
+      <mat-icon class="search__button">search</mat-icon>
+    </button>
+  </div>
+
+  <button mat-raised-button color="primary">ログイン</button>
 </mat-toolbar>

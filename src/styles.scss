@@ -7,6 +7,14 @@ html, body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  list-style: none;
+  // font-size: 14px;
 }
+
+.container {
+  padding: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+

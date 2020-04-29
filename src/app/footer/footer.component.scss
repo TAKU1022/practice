@@ -1,0 +1,22 @@
+footer {
+  border-top: 1px solid black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  padding-right: 8px;
+}
+
+li:last-child {
+  padding: 0;
+}
+
+p {
+  text-align: center;
+}

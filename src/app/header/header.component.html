@@ -1,14 +1,19 @@
-<mat-toolbar class="headerBar" color="accent">
-  <button mat-icon-button>
-    <mat-icon>restaurant_menu</mat-icon>
-  </button>
+<mat-toolbar class="header" color="accent">
 
-  <div class="search">
-    <input class="search__bar" type="text" matInput placeholder="検索">
-    <button mat-icon-button>
-      <mat-icon class="search__button">search</mat-icon>
+  <div class="header-left">
+    <button mat-icon-button class="header-left__nav">
+      <mat-icon aria-hidden="false">menu</mat-icon>
+    </button>
+    <a class="header-left__icon">MENU</a>
+  </div>
+
+  <div class="header-right">
+    <button mat-icon-button class="header-right__search">
+      <mat-icon aria-hidden="false">search</mat-icon>
+    </button>
+    <button mat-icon-button class="header-right__account">
+      <mat-icon aria-hidden="false">account_circle</mat-icon>
     </button>
   </div>
 
-  <button mat-raised-button color="primary">ログイン</button>
 </mat-toolbar>

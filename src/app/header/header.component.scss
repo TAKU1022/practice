@@ -1,18 +1,12 @@
-.headerBar {
+.header {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
-.search {
-  display: flex;
-  &__bar {
-    width: 180px;
-    padding: 0;
-    margin: 0;
-    line-height: 1;
-  }
-  &__search__button {
-    display: inline;
-    padding: 0;
+.header-left {
+  padding: 0 5px 0;
+  &__icon {
+    vertical-align: middle;
   }
 }

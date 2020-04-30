@@ -4,7 +4,6 @@ footer {
 }
 
 ul {
-  list-style: none;
   padding: 0;
   margin: 24px 0 16px 0;
   font-size: 12px;
@@ -13,11 +12,12 @@ ul {
 }
 
 li {
+  list-style: none;
   padding-right: 8px;
 }
 
 li:last-child {
-  padding: 0;
+  padding-right: 0;
 }
 
 p {

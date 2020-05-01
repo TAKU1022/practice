@@ -1,19 +1,17 @@
-<mat-toolbar class="header" color="accent">
-
-  <div class="header-left">
-    <button mat-icon-button class="header-left__nav">
+<mat-toolbar class="header" color="primary">
+  <div>
+    <button mat-icon-button (click)="toggle()">
       <mat-icon aria-hidden="false">menu</mat-icon>
     </button>
-    <span routerLink='/' class="header-left__icon">MENU</span>
+    <span class="logo">MENU</span>
   </div>
 
-  <div class="header-right">
-    <button mat-icon-button class="header-right__search">
+  <div>
+    <button mat-icon-button>
       <mat-icon aria-hidden="false">search</mat-icon>
     </button>
-    <button mat-icon-button class="header-right__account">
+    <button mat-icon-button>
       <mat-icon aria-hidden="false">account_circle</mat-icon>
     </button>
   </div>
-
 </mat-toolbar>

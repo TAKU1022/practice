@@ -3,6 +3,12 @@
   flex-direction: column;
   min-height: 100vh;
 }
+
+mat-sidenav-container {
+  background-color: #fff;
+  color: #000;
+}
+
 app-footer {
   margin-top: auto;
 }

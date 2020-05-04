@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DrawerService } from './services/drawer.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practice';
+
+  opened: boolean;
+
+  constructor(
+    private drawerService: DrawerService
+  ) {
+    this.drawerService.toggle();
+    this.drawerService.isOpen$.subscribe(opened => this.opened = opened);
+  }
 }

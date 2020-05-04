@@ -15,8 +15,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // toggle() {
-  //   this.drawerService.toggle();
-  // }
+  toggle() {
+    this.drawerService.toggle();
+  }
 
 }

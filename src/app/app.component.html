@@ -2,10 +2,12 @@
 
   <app-header></app-header>
   <mat-sidenav-container>
-    <mat-sidenav #sidenav mode="over" [opened]="!opened">
+    <mat-sidenav fixedInViewport [fixedTopGap]="56" mode="over" [opened]="!opened">
       <mat-nav-list>
-        <a mat-list-item routerLink="/">ホーム</a>
-        <a mat-list-item routerLink="/profile">プロフィール</a>
+        <a mat-list-item routerLink="">ホーム</a>
+        <a mat-list-item routerLink="">献立</a>
+        <a mat-list-item routerLink="">メニュー一覧</a>
+        <a mat-list-item routerLink="">設定</a>
       </mat-nav-list>
     </mat-sidenav>
 

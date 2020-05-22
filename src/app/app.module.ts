@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import {MatListModule} from '@angular/material/list';
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
